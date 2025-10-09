@@ -1380,8 +1380,10 @@ start htmlcov/index.html  # Windows
 ```
 
 ## แนบรูปผลการทดลองการทดสอบระบบ
+<img width="957" height="454" alt="image" src="https://github.com/user-attachments/assets/bf2e6ea2-b3b4-4e06-8ba5-66cad2fc5e9f" />
 ```plaintext
 # แนบรูปผลการทดลองที่นี่
+
 
 ``` 
 ## คำถามการทดลอง
