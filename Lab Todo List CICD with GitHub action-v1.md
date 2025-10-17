@@ -1,4 +1,4 @@
-# Lab 6: CI/CD with GitHub Actions - Todo List Application
+<img width="1627" height="410" alt="image" src="https://github.com/user-attachments/assets/53eb59a8-7272-4710-95ee-7688316e3d3e" /># Lab 6: CI/CD with GitHub Actions - Todo List Application
 
 ## วัตถุประสงค์การทดลอง
 1. อธิบายหลักการและกระบวนการ CI/CD (Continuous Integration/Continuous Deployment)
@@ -1390,7 +1390,10 @@ start htmlcov/index.html  # Windows
 ให้จับคู่ Code ส่วนของการทดสอบ กับ Code การทำงาน มาอย่างน้อย 3 ฟังก์ชัน พร้อมอธิบายการทำงานของแต่ละกรณี
 ```plaintext
 # ตอบคำถามที่นี่
-
+Code ส่วนของการทดสอบ กับ Code การทำงาน 
+1. / (Root endpoint) = test_root_endpoint กับ index()  ตรวจสอบว่า root endpoint ส่งข้อมูล JSON ที่มี message, version, endpoints และ status 200
+2./api/health = test_health_endpoint_success กับ health_check() ตรวจสอบกรณี database เชื่อมต่อสำเร็จ ส่ง status 200 และ JSON 'healthy'
+3./api/todos (POST) = test_create_todo_with_title_only กับ create_todo() สร้าง Todo โดยส่ง title อย่างเดียว ตรวจสอบ description เป็น default ''
 
 ```
 
@@ -1733,8 +1736,10 @@ https://flask-todo-app.onrender.com
 **ทำการ push ไปที่ GitHub Repository** แล้วตรวจสอบผลการทำงาน
 ## บันทึกรูปผลการทำงาน
 ```bash
+
 # บันทึกรูปผลการทำงานที่นี่
 ``` 
+<img width="1627" height="410" alt="image" src="https://github.com/user-attachments/assets/0d19b4d1-10d7-4c58-9e71-25be0d935490" />
 
 ---
 
