@@ -1,4 +1,3 @@
-<img width="1627" height="410" alt="image" src="https://github.com/user-attachments/assets/53eb59a8-7272-4710-95ee-7688316e3d3e" /># Lab 6: CI/CD with GitHub Actions - Todo List Application
 
 ## วัตถุประสงค์การทดลอง
 1. อธิบายหลักการและกระบวนการ CI/CD (Continuous Integration/Continuous Deployment)
